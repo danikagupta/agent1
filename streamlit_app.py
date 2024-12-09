@@ -7,7 +7,7 @@ from graph import FirstAgent
 # Set environment variables for Langchain and SendGrid
 os.environ["LANGCHAIN_TRACING_V2"]="true"
 os.environ["LANGCHAIN_API_KEY"]=st.secrets['LANGCHAIN_API_KEY']
-os.environ["LANGCHAIN_PROJECT"]="SalesCompAgent"
+os.environ["LANGCHAIN_PROJECT"]="FirstAgent"
 os.environ['LANGCHAIN_ENDPOINT']="https://api.smith.langchain.com"
 
 DEBUGGING=0
